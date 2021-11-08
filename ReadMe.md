@@ -3,7 +3,8 @@ Code Overview:
 The 2 main folders are rc and test. 'src' contains the source code which is further divided into 2 sub folders Stock and Trade, each containing files needed for Data access, class creation for that specific component.
 All the methods required to be implemented are present in the "Market.py" file in src.
 
-The test folder contains "MarketTest.py" which contains sample test cases implemented to test the functionality.
+The test folder contains "MarketTest.py" which contains sample test cases implemented to test the functionality. To run the tests from command-line, run the below command from the project directory: 
+python -m unittest test.MarketTest
 
 Assumptions:
 1) For a given stock, fixed dividend & par value cannot be null
